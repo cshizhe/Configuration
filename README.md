@@ -8,6 +8,10 @@
  - [SecureCRT configuration](#securecrt-configuration)
 ![Example Image](example.png)
 
+## Cheatsheet
+
+https://gist.github.com/MohamedAlaa/2961058
+
 ## Install
 
 - Clone this repository and Run install script 
@@ -18,6 +22,11 @@ bash install.sh
 ```
 
 ## Vim Config
+
+reload tmux config:
+tmux source-file ~/.tmux.conf (don't need to kill the session)
+http://www.deanbodenham.com/learn/tmux-conf-file.html
+
 My vimrc and some candidates
 - [`.vimrc`](.vimrc)
 - https://github.com/samlaudev/ConfigurationFiles
